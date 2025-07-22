@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Posh Mama Farms - Premium Mushroom Cultivation & Products</title>
+  <meta name="description" content="Posh Mama Farms - Uganda's premier mushroom cultivation company specializing in high-quality shiitake, oyster, and medicinal mushrooms for local and international markets.">
+  <meta name="keywords" content="mushroom cultivation, Uganda, shiitake, oyster mushrooms, medicinal mushrooms, sustainable farming">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="footer.css" />
+  <link rel="stylesheet" href="slideshow.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="logo">
+      <a href="#home" class="nav-logo"><img src="Poshmama-images/Agro-image/poshmama001.png"></a>
+    </div>  
+    <ul>
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#about" class="nav-link">About Us</a></li>
+      <li><a href="#more" class="nav-link">More</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h1 class="fade-in">Posh Mama Farms</h1>
+      <p class="hero-tagline">"Gifted Hands, Premium Mushrooms"</p>
+      <p class="hero-description fade-in">Uganda's leading mushroom cultivation company, delivering premium quality mushrooms for culinary, therapeutic, and medicinal use worldwide.</p>
+    </div>
+    
+    <!-- Enhanced Slideshow -->
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="Poshmama-images/Agro-image/mushroom tablets.jpg" alt="Premium Mushroom Tablets" loading="lazy">
+        <div class="slide-caption">Premium Mushroom Tablets</div>
+      </div>
+      <div class="mySlides fade">
+        <img src="Poshmama-images/Agro-image/mushroom7.png" alt="Fresh Mushroom Cultivation" loading="lazy">
+        <div class="slide-caption">Fresh Mushroom Cultivation</div>
+      </div>
+      <div class="mySlides fade">
+        <img src="Poshmama-images/Agro-image/mushroom1.webp" alt="Organic Mushroom Varieties" loading="lazy">
+        <div class="slide-caption">Organic Mushroom Varieties</div>
+      </div>
+      <div class="mySlides fade">
+        <img src="Poshmama-images/Agro-image/powder.webp" alt="Mushroom Powder Products" loading="lazy">
+        <div class="slide-caption">Mushroom Powder Products</div>
+      </div>
+      
+      <!-- Slideshow Controls -->
+      <button class="prev" onclick="changeSlide(-1)" aria-label="Previous slide">&#10094;</button>
+      <button class="next" onclick="changeSlide(1)" aria-label="Next slide">&#10095;</button>
+      
+      <!-- Slide Indicators -->
+      <div class="slide-indicators">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section scroll-section">
+    <h2>Our Services</h2>
+    <p class="section-description">Comprehensive mushroom solutions from cultivation to delivery</p>
+    <div class="scroll-container">
+      <a class="scroll-item fade-in" href="service1.html">
+        <h3>Mushroom Cultivation</h3>
+        <p>Premium cultivation of shiitake, oyster, and specialty mushrooms using sustainable practices</p>
+      </a>
+      <a class="scroll-item fade-in" href="service2.html">
+        <h3>Product Portfolio</h3>
+        <p>Diverse range of mushroom products including fresh, dried, powdered, and tablet forms</p>
+      </a>
+      <a class="scroll-item fade-in" href="service3.html">
+        <h3>Sales & Delivery</h3>
+        <p>Reliable distribution network serving local, regional, and international markets</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section scroll-section">
+    <h2>About Posh Mama Farms</h2>
+    <p class="section-description">Learn more about our mission, vision, and dedicated team</p>
+    <div class="scroll-container">
+      <a class="scroll-item fade-in" href="summary.html">
+        <h3>Company Overview</h3>
+        <p>Discover our journey as Uganda's premier women-owned mushroom cultivation company</p>
+      </a>
+      <a class="scroll-item fade-in" href="ourteam.html">
+        <h3>Our Expert Team</h3>
+        <p>Meet our experienced agricultural and food science professionals</p>
+      </a>
+      <a class="scroll-item fade-in" href="vision.html">
+        <h3>Our Vision</h3>
+        <p>Leading the transformation of mushroom cultivation in East Africa</p>
+      </a>
+      <a class="scroll-item fade-in" href="mission.html">
+        <h3>Our Mission</h3>
+        <p>Promoting health benefits while supporting local communities and ecosystems</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Additional Information Section -->
+  <section id="more" class="section scroll-section">
+    <h2>Excellence & Innovation</h2>
+    <p class="section-description">Commitment to quality, research, and customer satisfaction</p>
+    <div class="scroll-container">
+      <a class="scroll-item fade-in" href="Qual-Stand.html">
+        <h3>Quality Standards</h3>
+        <p>International quality certifications and rigorous testing protocols</p>
+      </a>
+      <a class="scroll-item fade-in" href="contact.html">
+        <h3>Contact Us</h3>
+        <p>Get in touch for partnerships, orders, or general inquiries</p>
+      </a>
+      <a class="scroll-item fade-in" href="research-dev.html">
+        <h3>Research & Development</h3>
+        <p>Continuous innovation in mushroom cultivation and product development</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="cta-section">
+    <div class="cta-content">
+      <h2>Ready to Experience Premium Mushrooms?</h2>
+      <p>Join our growing network of satisfied customers worldwide</p>
+      <a href="contact.html" class="cta-button">Get Started Today</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Posh Mama Farms</h3>
+        <p>Premium mushroom cultivation and products from the heart of Uganda.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="Qual-Stand.html">Quality Standards</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Information</h3>
+        <p><strong>Phone:</strong> +256 772 909 266</p>
+        <p><strong>Email:</strong> info@poshmamafarms.com</p>
+        <p><strong>Address:</strong> Kampala, Uganda</p>
+      </div>
+    </div>
+    
+    <div class="footer-social">
+      <a href="https://www.facebook.com/share/1F2fG176T4/" target="_blank" aria-label="Facebook" class="social-icon facebook">
+        <img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook" />
+      </a>
+      <a href="https://www.instagram.com/poshmama20257?igsh=MXBrcjlrazkwdW5xbQ==" target="_blank" aria-label="Instagram" class="social-icon instagram">
+        <img src="https://cdn-icons-png.flaticon.com/24/733/733558.png" alt="Instagram" />
+      </a>
+ 
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2024 Posh Mama Farms. All rights reserved. | Designed for excellence in mushroom cultivation.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="slideshow.js"></script>
+  <script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        if (targetSection) {
+          targetSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', function() {
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 100) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Intersection Observer for fade-in animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, observerOptions);
+
+    // Observe all fade-in elements
+    document.querySelectorAll('.fade-in').forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(30px)';
+      el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
