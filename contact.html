@@ -51,11 +51,15 @@
     </div>
 
     <!-- Contact Form -->
-    <form action="mailto:info@poshmamafarms.com" method="post" enctype="text/plain" id="contactForm">
+    <form action="mailto:poshmama2025@gmail.com.com" method="post" enctype="text/plain" id="contactForm">
       <div class="form-group">
         <label for="name">Full Name</label>
         <input type="text" id="name" name="name" required placeholder="Enter your full name" />
         <div class="error-message">Please enter your name</div>
+      </div>
+        <div class="form-group" style="display:none;">
+        <label for="website">Website</label>
+        <input type="text" id="website" name="website" placeholder="Leave this field empty" />
       </div>
 
       <div class="form-group">
@@ -155,7 +159,13 @@
             isValid = false;
           }
         });
-
+        // Honeypot check
+        const honeypot = document.getElementById('website');
+        if (honeypot.value) {
+          // Bot detected
+          e.preventDefault();
+          return false;
+        }
         if (!isValid) {
           e.preventDefault();
           return false;
