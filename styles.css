@@ -128,7 +128,6 @@ a:focus {
   display: flex;
   justify-content: center;
   border-top-right-radius: 80px;
-  border-bottom-left-radius: 80px;
   gap: 2rem;
 }
 
@@ -627,3 +626,4 @@ a:focus {
     padding: 0 var(--spacing-md) var(--spacing-sm);
   }
 }
+
