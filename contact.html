@@ -87,7 +87,7 @@
                 
                 <div class="contact-form">
                     <h2>Send Us a Message</h2>
-                    <form id="contactForm" action="https://formspree.io/f/YOUR_FORMSPREE_FORM_ID" method="POST">
+                    <form id="contactForm" onsubmit="return prepareEmail()">
                         <div class="form-group">
                             <label for="name">Full Name *</label>
                             <input type="text" id="name" name="name" required>
@@ -517,3 +517,4 @@
     </script>
 </body>
 </html>
+
