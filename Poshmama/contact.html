@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Posh Mama Farms</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Logo -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="Posh-images/poshmama.png" alt="Posh Mama Farms Logo">
+                <h1>Posh Mama Farms</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+                url('Posh-images/world.avif') center/cover no-repeat;">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Get In Touch</h2>
+                <p>We'd love to hear from you! Whether you're interested in our products, seeking patnership opportunities, or have questions about our mushroom cultivation services, here we're to help you !</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>Kampala<br>Kampala, Uganda</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+256 772 909 266</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>poshmama2025@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Business Hours</h3>
+                            <p>Monday - Friday: 9AM - 5PM<br>Saturday: 10AM - 3PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-contact">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/share/1F2fG176T4/" target="_blank" aria-label="Facebook" class="social-icon facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/poshmama20257?igsh=MXBrcjlrazkwdW5xbQ==" target="_blank" aria-label="Instagram" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                          
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="order">Order Information</option>
+                                <option value="wholesale">Wholesale Inquiry</option>
+                                <option value="partnership">Partnership</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Find Us</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Interactive Map</h3>
+                    <p>Kampala, Kampala, Uganda</p>
+                    <button class="map-btn">Get Directions</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Do you offer wholesale pricing?</h3>
+                    <p>Yes! We offer competitive wholesale pricing for restaurants, retailers, and distributors. Contact us for more information.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What are your shipping options?</h3>
+                    <p>We offer nationwide shipping with expedited options available. Fresh mushrooms are shipped with ice packs for optimal freshness.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Are your products certified organic?</h3>
+                    <p>Yes, all our mushrooms and products are certified organic and grown using sustainable practices.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you offer local delivery?</h3>
+                    <p>We offer local delivery within a 50-mile radius of our farm. Contact us for delivery options and pricing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="Posh-images/poshmama001.png" alt="Posh Mama Farms Logo">
+                        <h3>Posh Mama Farms</h3>
+                    </div>
+                    <p>Uganada's leading mushroom cultivation company, delivering premium quality mushrooms for culinary, therapeutic and medical use worldwide since 2024.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="products.html">Mushroom Tea</a></li>
+                        <li><a href="products.html">Tablets</a></li>
+                        <li><a href="products.html">Powder</a></li>
+                        <li><a href="products.html">Fresh Mushrooms</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Kampala, Uganda</p>
+                    <p><i class="fas fa-phone"></i> +256 772 909 266</p>
+                    <p><i class="fas fa-envelope"></i> poshmama2025@gmail.comom</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/1F2fG176T4/" target="_blank" aria-label="Facebook" class="social-icon facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/poshmama20257?igsh=MXBrcjlrazkwdW5xbQ==" target="_blank" aria-label="Instagram" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                       
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Posh Mama Farms. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        .contact-content {
+            padding: 5rem 0;
+            background: white;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+        }
+        
+        .contact-info h2 {
+            color: #2d5016;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .contact-item i {
+            font-size: 1.5rem;
+            color: #4a7c59;
+            margin-top: 0.3rem;
+            min-width: 30px;
+        }
+        
+        .contact-item h3 {
+            color: #2d5016;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        .contact-item p {
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        .social-contact {
+            margin-top: 2rem;
+        }
+        
+        .social-contact h3 {
+            color: #2d5016;
+            margin-bottom: 1rem;
+        }
+        
+        .contact-form h2 {
+            color: #2d5016;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #2d5016;
+            font-weight: 500;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #4a7c59;
+        }
+        
+        .submit-btn {
+            width: 100%;
+            padding: 1rem;
+            background: #4a7c59;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .submit-btn:hover {
+            background: #3a6549;
+        }
+        
+        .map-section {
+            padding: 5rem 0;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+        
+        .map-section h2 {
+            text-align: center;
+            color: #2d5016;
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+        }
+        
+        .map-container {
+            background: white;
+            border-radius: 15px;
+            padding: 3rem;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        .map-placeholder i {
+            font-size: 4rem;
+            color: #4a7c59;
+            margin-bottom: 1rem;
+        }
+        
+        .map-placeholder h3 {
+            color: #2d5016;
+            margin-bottom: 0.5rem;
+        }
+        
+        .map-placeholder p {
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+        
+        .map-btn {
+            padding: 0.8rem 2rem;
+            background: #ff6b35;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background 0.3s ease;
+        }
+        
+        .map-btn:hover {
+            background: #e55a2b;
+        }
+        
+        .faq-section {
+            padding: 5rem 0;
+            background: white;
+        }
+        
+        .faq-section h2 {
+            text-align: center;
+            color: #2d5016;
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+        }
+        
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .faq-item {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            border-left: 4px solid #4a7c59;
+        }
+        
+        .faq-item h3 {
+            color: #2d5016;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        
+        .faq-item p {
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .faq-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .map-container {
+                padding: 2rem;
+            }
+        }
+    </style>
+
+    <script>
+        // Simple form validation
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Simple validation
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            if (!name || !email || !subject || !message) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+            
+            // Simulate form submission
+            alert('Thank you for your message! We will get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
