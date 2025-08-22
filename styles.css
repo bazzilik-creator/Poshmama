@@ -20,7 +20,7 @@ body {
 
 /* Header Styles */
 .header {
-    background: linear-gradient(135deg, #2d50166c 0%, #4a7c5960 100%);
+    background: linear-gradient(135deg, #2d50168c 0%, #4a7c5977 100%);
     padding: 1rem 0;
     position: fixed;
     width: 100%;
@@ -373,4 +373,5 @@ body {
     content: "🍄";
     font-style: normal;
 }
+
 
