@@ -132,17 +132,9 @@
 
     <!-- Map Section -->
     <section class="map-section">
-        <div class="container">
-            <h2>Find Us</h2>
-            <div class="map-container">
-                <div class="map-placeholder">
-                    <i class="fas fa-map-marked-alt"></i>
-                    <h3>Interactive Map</h3>
-                    <p>Uganda,central,wakiso,kasangati</p>
-                    <button class="map-btn">Get Directions</button>
-                </div>
+       <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb==kampala&rlz=1C1FKPE_frTR1159TR1160&oq=kampala&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyDQgBEC4YkQIYgAQYigUyDAgCEC4YQxiABBiKBTIQCAMQLhivARjHARiABBiOBTIHCAQQABiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDQ3MTBqMGo5qAIGsAIB8QUnVTyAYlomGPEFJ1U8gGJaJhg&sourceid=chrome&ie=UTF-8" allowfullscreen="" loading="lazy"></iframe>
             </div>
-        </div>
     </section>
 
     <!-- FAQ Section -->
@@ -329,62 +321,21 @@
             background: #3a6549;
         }
         
-        .map-section {
-            padding: 5rem 0;
-            background: linear-gradient(135deg, #248507 0%, #d86c13 100%);
-        }
-        
-        .map-section h2 {
-            text-align: center;
-            color: #2d5016;
-            margin-bottom: 3rem;
-            font-size: 2.5rem;
-        }
-        
+         /* Map */
         .map-container {
-            background: white;
+            margin-top: 40px;
             border-radius: 15px;
-            padding: 3rem;
-            text-align: center;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            height: 300px;
         }
-        
-        .map-placeholder i {
-            font-size: 4rem;
-            color: #4a7c59;
-            margin-bottom: 1rem;
-        }
-        
-        .map-placeholder h3 {
-            color: #2d5016;
-            margin-bottom: 0.5rem;
-        }
-        
-        .map-placeholder p {
-            color: #666;
-            margin-bottom: 1.5rem;
-        }
-        
-        .map-btn {
-            padding: 0.8rem 2rem;
-            background: #ff6b35;
-            color: white;
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
             border: none;
-            border-radius: 25px;
-            cursor: pointer;
-            font-weight: 500;
-            transition: background 0.3s ease;
         }
-        
-        .map-btn:hover {
-            background: #027404b3;
-        }
-        
-        .faq-section {
-            padding: 5rem 0;
-            background: rgb(255, 254, 252);
-        }
-        
+
         .faq-section h2 {
             text-align: center;
             color: #2d5016;
